@@ -1,0 +1,42 @@
+<section class="popular-product">
+  <div class="container">
+    <h2 class="popular-product__subtitle subtitle">
+      Popular product
+    </h2>
+    <ul class="popular-product__menu-list">
+      <li class="popular-product__menu-item">
+        <button class="popular-product__menu-btn" type="button" data-filter="all">
+          All
+        </button>
+      </li>
+      <li class="popular-product__menu-item">
+        <button class="popular-product__menu-btn" type="button" data-filter=".category-a">
+          Food
+        </button>
+      </li>
+      <li class="popular-product__menu-item">
+        <button class="popular-product__menu-btn" type="button" data-filter=".category-b">
+          Organic
+        </button>
+      </li>
+      <li class="popular-product__menu-item">
+        <button class="popular-product__menu-btn" type="button" data-filter=".category-c">
+          Fruits
+        </button>
+      </li>
+      <li class="popular-product__menu-item">
+        <button class="popular-product__menu-btn" type="button" data-filter=".category-d">
+          Health
+        </button>
+      </li>
+      <li class="popular-product__menu-item">
+        <button class="popular-product__menu-btn" type="button" data-filter=".category-e">
+          Seafood
+        </button>
+      </li>
+    </ul>
+
+    @@include('_products-list.html')
+
+  </div>
+</section>

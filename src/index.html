@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Organic food web site | Home page</title>
+</head>
+
+<body>
+
+  @@include('_header.html')
+
+  @@include('_header-slider.html')
+
+  <main class="main">
+
+    @@include('_info-block.html')
+
+    @@include('_popular-product.html')
+
+    <div class="block-offer">
+      <div class="container">
+        <ul class="block-offer__list">
+          <li class="block-offer__item block-offer__item--left">
+            <h3 class="block-offer__subtitle">
+              <span>
+                save up to 50%
+              </span>
+              The blueprint to health
+            </h3>
+            <button class="block-offer__btn block-offer__btn--left">
+              Buy now
+            </button>
+          </li>
+          <li class="block-offer__item block-offer__item--right">
+            <h3 class="block-offer__subtitle">
+              <span>
+                offer 30% discount
+              </span>
+              vruits & vegetables
+            </h3>
+            <button class="block-offer__btn block-offer__btn--right">
+              Buy now
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    @@include('_featured-product.html')
+
+    @@include('_testimonials.html')
+
+    @@include('_blog.html')
+
+    @@include('_subscribe.html')
+
+    @@include('_footer.html')
+
+
+  </main>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
